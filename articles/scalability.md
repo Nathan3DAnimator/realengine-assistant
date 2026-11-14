@@ -10,7 +10,7 @@ keys: vrs, variable rate shading, sombreamento de taxa variavel, gtao, ssao, ocl
   - Os mapas ficam guardados: só se redesenha o que mudou (a luz se moveu, um objeto se moveu dentro do alcance dela).
   - Uma luz só projeta sombra com **Cast Shadows** ligado (Details da luz). Desligar em luzes pequenas e de enfeite poupa o orçamento.
 - **Oclusão de ambiente em tela (GTAO)**, do **Alto** para cima: os cantos (parede com chão, com teto, móveis encostados) ganham a sombra suave da luz indireta. Custa ~0,3 ms a 1440p.
-- **Variable Rate Shading** (Configurações do Projeto > Rendering, desligado por padrão): sombreia as áreas lisas a cada 2×2 pixels, ~0,4 ms a menos a 1440p, com um pouco mais de cintilação em bordas finas.
+- **Variable Rate Shading** (Configurações do Projeto > Rendering, desligado por padrão): sombreia as áreas lisas a cada 2×2 pixels (~0,6 ms a menos no passe principal a 1440p). As bordas de profundidade ficam sempre com taxa cheia (sem luz vazando pela aresta), a taxa segue o movimento e não fica trocando de um quadro para o outro: a cintilação fica quase igual à de sem VRS.
 - O jogo empacotado tem a sua em Configurações do Projeto > Rendering, e o projeto pode ser **Desempenho** ou **Qualidade** (o path tracer como vista do jogo).
 --- en
 - **Settings** (the editor's top right): Low, Medium, High, Epic. [Show me where](show:Settings)
@@ -20,5 +20,5 @@ keys: vrs, variable rate shading, sombreamento de taxa variavel, gtao, ssao, ocl
   - The maps are kept: only what changed is drawn again (the light moved, an object moved inside its reach).
   - A light casts shadows only with **Cast Shadows** on (the light's Details). Turning it off on small decorative lights saves the budget.
 - **Screen space ambient occlusion (GTAO)**, from **High** up: corners (wall and floor, wall and ceiling, furniture against a wall) get the soft shadow of the indirect light. It costs ~0.3 ms at 1440p.
-- **Variable Rate Shading** (Project Settings > Rendering, off by default): shades flat areas once per 2×2 pixels, ~0.4 ms less at 1440p, with a little more shimmer on thin edges.
+- **Variable Rate Shading** (Project Settings > Rendering, off by default): shades flat areas once per 2×2 pixels (~0.6 ms less in the main pass at 1440p). Depth edges always keep the full rate (no light leaking past the edge), the rate follows motion and doesn't flip from frame to frame: the shimmer stays close to no VRS.
 - The packaged game has its own in Project Settings > Rendering, and the project can be **Performance** or **Quality** (the path tracer as the game's view).
