@@ -41,7 +41,7 @@ ikrig: ik-rig, ragdoll
 veiculos: vehicles, vehicle-parts, water-rails, vehicle-from-mesh
 procedural: procedural-worlds, procedural-facility
 android: android-export, touch-controls, android-performance, google-play
-agua: rain-water, rivers-swimming
+agua: rain-water, rivers-swimming, rain-design, rain-shading
 tecido: cloth
 diagnostico-gpu-tecido: cloth
 xr: vr-ar
