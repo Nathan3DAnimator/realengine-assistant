@@ -56,3 +56,4 @@ regras-de-jogo: game-rules
 habilidades: abilities
 hud: hud
 mundos-grandes: world-partition
+niveis: sublevels-lighting-levels, levels-save, world-partition
