@@ -37,7 +37,7 @@ sequencer: sequencer, camera-actor, cinematics-render
 servicos: report-bug, updates, gpu-crash
 umg: game-ui, ui-fonts-lists
 particulas: particle-systems, particles-tlender, fire, volumes-vdb, particle-ribbons
-ikrig: ik-rig, ragdoll
+ikrig: ik-rig, ragdoll, active-ragdoll
 veiculos: vehicles, vehicle-parts, water-rails, vehicle-from-mesh
 procedural: procedural-worlds, procedural-facility
 android: android-export, touch-controls, android-performance, google-play
