@@ -8,7 +8,7 @@ Empacote o jogo | Conecte o headset (Quest Link, SteamVR...) | Jogo.exe --vr (se
 ```
 ## VR
 - A engine fala **OpenXR** direto com o runtime instalado (Meta, SteamVR, WMR): não precisa de SDK.
-- Cada olho é renderizado com o motor inteiro, com **MSAA 4×** (o que tem histórico de tela fica desligado no VR para não misturar os olhos). Meta: **acima de 100 fps**: diminua a escalabilidade se a cena for pesada.
+- Os dois olhos saem num quadro só do motor, com **MSAA 4×** (o que tem histórico de tela fica desligado no VR para não misturar os olhos); o primeiro olho paga as simulações, a GI e as sombras, o segundo só a vista dele. Meta: **acima de 100 fps**. Teleporte, mãos, pegar e o Quest sozinho: o artigo **Jogos em VR** (`vr-quest`).
 - Controles: **Get Motion Controller Pose** (lugar e direção), **Get Motion Controller Input** (gatilho, grip, analógico, botões), **Play Haptic Effect** (vibração), **Get HMD Pose**, **Is VR Active**.
 ```blueprint
 Event Tick -> Get Motion Controller Input ( 1 ) -> Branch ( Trigger > 0.5 ) -> Play Haptic Effect ( 1, 0.6, 0.1 )
@@ -38,7 +38,7 @@ Package the game | Connect the headset (Quest Link, SteamVR...) | Game.exe --vr 
 ```
 ## VR
 - The engine talks **OpenXR** directly to the installed runtime (Meta, SteamVR, WMR): no SDK needed.
-- Each eye is rendered by the whole engine with **MSAA 4x** (what keeps a screen history is off in VR so the eyes don't mix). Target: **above 100 fps**: lower the scalability if the scene is heavy.
+- Both eyes come out of one frame of the engine with **MSAA 4x** (what keeps a screen history is off in VR so the eyes don't mix); the first eye pays the simulations, the GI and the shadows, the second only its view. Target: **above 100 fps**. Teleport, hands, grabbing and the Quest standalone: the **VR games** article (`vr-quest`).
 - Controllers: **Get Motion Controller Pose** (place and direction), **Get Motion Controller Input** (trigger, grip, thumbstick, buttons), **Play Haptic Effect** (vibration), **Get HMD Pose**, **Is VR Active**.
 ```blueprint
 Event Tick -> Get Motion Controller Input ( 1 ) -> Branch ( Trigger > 0.5 ) -> Play Haptic Effect ( 1, 0.6, 0.1 )

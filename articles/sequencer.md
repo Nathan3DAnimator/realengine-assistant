@@ -14,6 +14,7 @@ Adicionar > Level Sequence | + Trilha > Ator para o Sequencer (ou arraste do Org
 6. **Editor de Curvas** (aba embaixo): as curvas da trilha selecionada; arraste as chaves (tempo e valor) e as alças das tangentes; **F** enquadra.
 7. O intervalo de reprodução: arraste o início verde e o fim vermelho na régua. Tocar para frente ou para trás, repetir, quadros (Esquerda / Direita).
 8. No jogo: o nó **Play Sequence** (e **Stop Sequence**).
+9. **Animação** de um personagem com Animation Blueprint: a chave toca o clipe por cima do Anim BP; quando a sequência acaba (ou o Stop Sequence), o Anim BP volta a mover o personagem (andar, pular). Sem Anim BP, ele fica no último quadro.
 --- en
 ```diagram steps
 Add > Level Sequence | + Track > Actor To Sequencer (or drag from the Outliner) | Keys on the timeline, curves in the Curve Editor | Play Sequence in the game
@@ -26,3 +27,4 @@ Add > Level Sequence | + Track > Actor To Sequencer (or drag from the Outliner) 
 6. **Curve Editor** (the bottom tab): the selected track's curves; drag the keys (time and value) and the tangents' handles; **F** frames them.
 7. The playback range: drag the green start and the red end on the ruler. Play forward or backwards, loop, step frames (Left / Right).
 8. In the game: the **Play Sequence** node (and **Stop Sequence**).
+9. **Animation** on a character with an Animation Blueprint: the key plays the clip instead of the Anim BP; when the sequence ends (or Stop Sequence), the Anim BP moves the character again (walking, jumping). Without an Anim BP it keeps the last frame.

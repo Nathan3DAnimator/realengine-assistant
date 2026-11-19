@@ -1,7 +1,7 @@
 id: variable-concept
 kind: concept
 title: Variáveis e tipos | Variables and types
-keys: variavel, variaveis, tipo, tipos, int, float, bool, string, vector, rotator, guardar valor, variable, types, instance editable, editable
+keys: variavel, variaveis, tipo, tipos, int, float, bool, string, vector, rotator, guardar valor, variable, types, instance editable, editable, valor diferente em cada ator, valor por ator, cada ator com seu valor, ajustar no details, different value per actor, per instance value
 --- pt
 Uma variável guarda um valor do ator:
 - **Bool** (sim/não), **Integer** (inteiro), **Float** (com vírgula), **String** (texto), **Vector** (x, y, z), **Rotator** (pitch, yaw, roll), **Actor** (outro ator), arrays e structs.

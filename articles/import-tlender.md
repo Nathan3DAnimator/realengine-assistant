@@ -14,7 +14,7 @@ Arquivo > Importar (ou arrastar o arquivo) | Opções: Colocar no Nível | Roda 
 ## O que vira o quê
 - Malhas viram **Static Meshes**; materiais são refeitos pelos nós (os mesmos do Blender).
 - Uma armature com a malha que ela deforma vira **Skeletal Mesh**; cada action vira uma **animação**.
-- Luzes e câmeras do glTF e do FBX viram atores.
+- Luzes e câmeras do .tlend, do glTF e do FBX viram atores; modificadores, nós sem equivalente e drivers do Tlender: veja o Relatório de Importação.
 - Cada Static Mesh guarda o **material da importação**: o visualizador da malha mostra com as texturas, a malha arrastada do Content Browser para o nível já vem com ele, e a miniatura ganha a cor dele.
 
 --- en
@@ -29,5 +29,5 @@ File > Import (or drag the file) | Options: Place in Level | Runs in the backgro
 ## What becomes what
 - Meshes become **Static Meshes**; materials are rebuilt from their nodes (Blender's).
 - An armature with the mesh it deforms becomes a **Skeletal Mesh**; each action an **animation**.
-- glTF's and FBX's lights and cameras become actors.
+- The .tlend's, glTF's and FBX's lights and cameras become actors; the Tlender's modifiers, nodes without an equivalent and drivers: see the Import Report.
 - Each Static Mesh keeps its **import's material**: the mesh viewer shows it with its textures, the mesh dragged from the Content Browser into the level comes with it, and its thumbnail takes its color.

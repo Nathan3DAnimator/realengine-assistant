@@ -9,7 +9,7 @@ Os atores entram na grade de células (128 m) sozinhos
 Compilar > Construir HLODs: o que está longe vira uma malha só
 Play: as células perto da câmera entram, as de longe saem, sem engasgo
 ```
-O **World Partition** deixa um nível enorme rodar como um pequeno: só o que está perto do jogador fica no mundo (como o da Unreal).
+O **World Partition** deixa um nível enorme rodar como um pequeno: só o que está perto do jogador fica no mundo (como o da Unreal). É o jeito de fazer um **mundo aberto grande** que vai **carregando por distância**.
 - **Como ligar:** **Adicionar > Landscape > World Partition**. Nos Details dele: **Cell Size** (128 m), **Loading Range** (256 m: as células até essa distância da câmera ficam no mundo) e **Streaming Budget** (ms por quadro para carregar e descarregar: o resto espera o próximo quadro, os mais perto primeiro).
 - **Quem entra na grade:** cada ator tem **World Partition > Is Spatially Loaded**. **Auto** põe na grade os props, luzes locais, pickups, inimigos e Blueprints; o sol, o céu, a neblina, o Landscape, o jogador, as regras do jogo e os volumes grandes ficam sempre. **No** prende um ator no mundo (o chão de uma peça só, por exemplo).
 - **Ao voltar:** um ator que saiu volta como o nível o tinha (o reset da Unreal). Para guardar o que mudou (um baú aberto, um inimigo morto), use o componente **Salvável**.
