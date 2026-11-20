@@ -48,7 +48,7 @@ agua: rain-water, rivers-swimming, rain-design, rain-shading, rain-clear-drops
 tecido: cloth, soft-body, clothing
 soft-body: soft-body, cloth
 diagnostico-gpu-tecido: cloth
-xr: vr-ar, vr-quest, mixed-reality
+xr: vr-ar, vr-quest, mixed-reality, vr-base-hand
 saude-dano: health-damage
 inventario: inventory
 pausa-opcoes: pause-options, game-ui
