@@ -1,7 +1,7 @@
 # Each area of the engine (a notas-dev/<area>.md) and the Assistant's articles that explain it.
 # tools/assistant_pack.py fails when an area has no line here or names a missing article: a new feature goes into the
 # Assistant with it (RealEngine.md, "Como trabalhar aqui"). The API functions and the controls' tips enter by themselves.
-animacao: animation, animation-pro, skinning, morph-targets, morph-curves, gpu-passes, asset-viewport, sockets-in-game, dynamic-bones, first-person-camera
+animacao: animation, animation-pro, motion-matching-jumps, skinning, morph-targets, morph-curves, gpu-passes, asset-viewport, sockets-in-game, dynamic-bones, first-person-camera
 assistente: assistant-help
 async: background-tasks, async-api
 audio: sound, audio-pro, metasounds
