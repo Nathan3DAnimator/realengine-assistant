@@ -13,9 +13,10 @@ debug-viewer: debug-viewer, trace-insights, gpu-passes
 orcamento: performance-budget, debug-viewer, gpu-passes
 desempenho: gpu-passes, performance-budget, performance, skinning, rt-denoiser, general-optimization
 upscaling: tsr-upscaling, vendor-upscalers, scalability
-demos: demo-games
+demos: demo-games, metro-scene
 editor: editor-layout, place-actors, shortcuts, move-actors, select-actors, undo-duplicate, play-in-editor, viewport-navigation, levels-save, snapping-grid, graph-menu, actor-icons, source-control, plugins, themes, window-layouts, asset-viewport
 escala: heavy-meshes, ecs-architecture
+traces: traces, debug-viewer
 fisica: physics, physics-push, fracture, character-physics, physics-constraint, collision-shapes, physics-pro, soft-body
 gi: gi-pro, lights, rt-denoiser, rt-clusters, gi-software-rt, far-probes, stable-gi
 rt-clusters: rt-clusters, gi-pro
@@ -60,7 +61,7 @@ habilidades: abilities
 hud: hud
 mundos-grandes: world-partition
 niveis: sublevels-lighting-levels, levels-day-night-panel, levels-save, world-partition
-temas-e-janelas: themes, window-layouts
+temas-e-janelas: themes, window-layouts, platform-support
 icones-e-tooltips: icons-tooltips, graph-style
 toon: toon, materials, render-styles
 terror: horror-kit, post-process, light-function

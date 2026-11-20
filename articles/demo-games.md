@@ -1,7 +1,7 @@
 id: demo-games
 kind: howto
 title: Jogos de demonstração (RPG, Terror, Luta) | Demo games (RPG, Horror, Fighting)
-keys: demo, demonstracao, exemplo, jogo pronto, sample, rpg, terror, horror, luta, fighting, aprender com exemplo, template, casa assombrada
+keys: demo, demonstracao, exemplo, jogo pronto, sample, rpg, terror, horror, luta, fighting, aprender com exemplo, template, casa assombrada, metro abandonado
 --- pt
 ```diagram compare
  | RPG | Terror | Luta
@@ -13,6 +13,7 @@ Bom para estudar | UMG e Game Mode | clima e áudio | Anim Blueprint
 - **RPG**: uma vila com missão de entrega (ouro, toras, encomenda), HUD em Widget Blueprint.
 - **Terror**: uma clínica abandonada à noite, lanterna, gerador e portão elétrico, materiais e móveis CC0.
 - **Luta**: um clube subterrâneo, dois lutadores com guarda, golpes e defesa, HUD com barras e rounds.
+- **Metrô abandonado** (`--scene metro`): um salão de metrô com o telhado quebrado, raios de sol na neblina, um trem velho e mato entre os trilhos, para estudar luz e cenário. Veja [a cena do metrô](article:metro-scene).
 - Os modelos e texturas são CC0 (Poly Haven, ambientCG), baixados no build; a licença vai em `Content/Demo`.
 - Também há os modelos simples: Terceira Pessoa, Primeira Pessoa, Visão de Cima e Física. Veja [Criar um projeto](article:create-project).
 --- en
@@ -26,5 +27,6 @@ Good to study | UMG and Game Mode | mood and audio | Anim Blueprint
 - **RPG**: a village with a delivery quest (gold, logs, a parcel), HUD made in a Widget Blueprint.
 - **Horror**: an abandoned clinic at night, a flashlight, a generator and an electric gate, CC0 materials and furniture.
 - **Fighting**: an underground club, two fighters with guard, strikes and blocks, a HUD with bars and rounds.
+- **Abandoned metro** (`--scene metro`): a metro hall with a broken roof, sun shafts in the fog, an old train and weeds between the rails, to learn light and set dressing. See [the metro scene](article:metro-scene).
 - Models and textures are CC0 (Poly Haven, ambientCG), downloaded at build time; the license goes in `Content/Demo`.
 - There are also the simple templates: Third Person, First Person, Top Down and Physics. See [Create a project](article:create-project).

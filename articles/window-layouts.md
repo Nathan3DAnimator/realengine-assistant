@@ -14,7 +14,7 @@ Cada painel do editor (Posicionar Atores, Organizador, Níveis, Detalhes e o Nav
 
 O viewport fica sempre no meio: os painéis se encaixam em volta dele.
 
-Por padrão, **Níveis** fica numa aba ao lado do **Organizador**.
+O layout padrão (0.44): **Modos** e **Posicionar Atores** à esquerda, o viewport no meio, o **Organizador** (com **Níveis** numa aba ao lado) sobre **Detalhes** à direita, e embaixo o **Navegador de Conteúdo** (com o **Registro de Saída** ao lado) e o **Suporte a Plataformas** no canto direito. Todos podem ser fechados, movidos e abertos de novo pelo menu **Janela**.
 
 ## Fechar e maximizar
 O **X** de um painel ou de uma janela própria fecha só aquela janela, nunca a engine (mesmo maximizada pelo Windows: Win+Seta para cima ou o menu da barra de tarefas). Para abrir de novo: menu **Janela**.
@@ -40,7 +40,7 @@ Each editor panel (Place Actors, Outliner, Levels, Details and the docked Conten
 
 The viewport always stays in the middle: the panels dock around it.
 
-By default, **Levels** is a tab beside the **Outliner**.
+The default layout (0.44): **Modes** and **Place Actors** on the left, the viewport in the middle, the **Outliner** (with **Levels** in a tab beside it) over **Details** on the right, and at the bottom the **Content Browser** (with the **Output Log** beside it) and **Platform Support** in the right corner. Every one can be closed, moved and opened again from the **Window** menu.
 
 ## Closing and maximizing
 The **X** of a panel or of a window of its own closes only that window, never the engine (even maximized by Windows: Win+Up or the taskbar's menu). To open it again: the **Window** menu.
@@ -61,7 +61,7 @@ Arrastra la pestaña de un panel | Aparecen los destinos: centro, lados, bordes 
 ## Mover los paneles
 Cada panel del editor (Colocar Actores, Organizador, Niveles, Detalles y el Explorador de Contenido acoplado) es una ventana. Arrastra su **pestaña**: mientras arrastras **aparecen todos los destinos** (el centro y los 4 lados de cada panel, los 4 bordes del editor y los **huecos entre dos paneles**). En el **centro** se une como pestaña; en un **lado** divide el panel; en un **borde** ocupa todo el alto o ancho; en un **hueco** crea un panel nuevo entre los dos. Fuera de un destino, flota; fuera de la ventana del motor, se vuelve una ventana propia (otro monitor).
 
-Por defecto, **Niveles** es una pestaña junto al **Organizador**. La **X** de un panel o de una ventana propia cierra solo esa ventana, nunca el motor (aunque esté maximizada).
+El diseño predeterminado (0.44): **Modos** y **Colocar Actores** a la izquierda, el viewport en el centro, el **Organizador** (con **Niveles** al lado) sobre **Detalles** a la derecha y, abajo, el **Explorador de Contenido** (con el **Registro de Salida**) y **Soporte de Plataformas** en la esquina. La **X** de un panel o de una ventana propia cierra solo esa ventana, nunca el motor (aunque esté maximizada).
 
 **Haz doble clic en la barra de título** (o en las pestañas) de una ventana suelta para **maximizarla**: fuera del editor ocupa el monitor; sobre el editor, el área de los paneles. Otro doble clic la devuelve a su tamaño y lugar.
 
