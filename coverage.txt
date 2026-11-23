@@ -14,7 +14,7 @@ orcamento: performance-budget, debug-viewer, gpu-passes
 desempenho: gpu-passes, performance-budget, performance, skinning, rt-denoiser, general-optimization
 upscaling: tsr-upscaling, vendor-upscalers, scalability
 demos: demo-games, metro-scene
-editor: editor-layout, place-actors, shortcuts, move-actors, select-actors, undo-duplicate, play-in-editor, viewport-navigation, levels-save, snapping-grid, graph-menu, actor-icons, source-control, plugins, themes, window-layouts, asset-viewport
+editor: editor-layout, place-actors, shortcuts, move-actors, select-actors, undo-duplicate, play-in-editor, viewport-navigation, levels-save, snapping-grid, graph-menu, actor-icons, source-control, plugins, themes, window-layouts, asset-viewport, gizmo-control
 escala: heavy-meshes, ecs-architecture
 traces: traces, debug-viewer
 fisica: physics, physics-push, fracture, character-physics, physics-constraint, collision-shapes, physics-pro, soft-body
@@ -27,9 +27,9 @@ jobs: job-system
 testes: test-suite
 jogo: package-game, hdr10-output
 landscape: landscape, foliage, landscape-paint
-luz: lights, sky-fog, shadows-pro, many-lights, contact-shadows, cine-camera, light-function
+luz: lights, sky-fog, shadows-pro, many-lights, contact-shadows, cine-camera, light-function, emissive-light
 marca: loading-screen
-materiais: materials, material-vs-texture, change-color, texture-streaming, glass-translucent, material-pins-no-effect, vertex-color-detail, decals, parallax, digital-humans, wet-surface, transmission, interior-mapping, general-optimization
+materiais: materials, material-vs-texture, change-color, texture-streaming, glass-translucent, material-pins-no-effect, vertex-color-detail, decals, parallax, digital-humans, wet-surface, transmission, interior-mapping, general-optimization, material-editor-flow, emissive-light
 multidao: crowds
 online: multiplayer, advanced-sessions, replication-pro, steam-pro, save-load, multiplayer-lag, online-prediction
 projetos: create-project, project-settings
