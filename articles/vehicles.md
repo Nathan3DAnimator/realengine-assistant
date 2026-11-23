@@ -33,6 +33,7 @@ class Driver extends Actor
         SetSteeringInput(0.3)
 ```
 Outros nós: *Set Brake Input*, *Set Handbrake Input*, *Set Flight Input*, *Set Gear*, *Set Engine On*, *Set Part Position*, *Toggle Part*, *Exit Vehicle*, *Get Engine RPM*, *Get Current Gear*. Veja também [Peças de veículo](article:vehicle-parts) e [Água e trilhos](article:water-rails).
+- **Batidas**: veículos colidem entre si; cada batida amassa (uma grade sobre a caixa), uma frente batida perde potência e uma roda dianteira batida entorta e o carro puxa para um lado. O dano fica em `vehicle_info` (Damage).
 --- en
 ```diagram steps
 Quick Add > Vehicles > Vehicle (a template) | Details: Auto Possess (or Enter Vehicle in a Blueprint) | Play: W/S throttle and brake, A/D steer, Space handbrake, F doors | Double-click the asset: chassis, gears and parts
@@ -64,3 +65,4 @@ class Driver extends Actor
         SetSteeringInput(0.3)
 ```
 Other nodes: *Set Brake Input*, *Set Handbrake Input*, *Set Flight Input*, *Set Gear*, *Set Engine On*, *Set Part Position*, *Toggle Part*, *Exit Vehicle*, *Get Engine RPM*, *Get Current Gear*. See also [Vehicle parts](article:vehicle-parts) and [Water and rails](article:water-rails).
+- **Crashes**: vehicles collide with each other; each crash dents them (a grid over the box), a crushed front loses power and a hit front wheel bends and the car pulls to one side. The damage is in `vehicle_info` (Damage).

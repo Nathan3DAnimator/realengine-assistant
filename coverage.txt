@@ -22,7 +22,7 @@ gi: gi-pro, lights, rt-denoiser, rt-clusters, gi-software-rt, far-probes, stable
 rt-clusters: rt-clusters, gi-pro
 ia: ai-pro, enemy-chase, patrol, navmesh, ai-damage-avoidance
 idiomas: language
-importar-tlender: import-tlender, delight, import-report
+importar-tlender: import-tlender, delight, import-report, import-rasset-rigid
 jobs: job-system
 testes: test-suite
 jogo: package-game, hdr10-output
@@ -72,4 +72,7 @@ udim: udim, materials, texture-streaming, material-vs-texture
 tessellation: nanite-tessellation, heavy-meshes, materials, scalability, general-optimization
 gi-estavel: stable-gi, rt-denoiser, tsr-upscaling, gi-pro
 visao-distante: distant-view, landscape, foliage, world-partition, sky-fog, scalability
+transito: traffic
+cidade: city-routines, crowds
+auditoria-gta6: crowds, traffic, vehicles, active-ragdoll, hair-groom, rain-design, world-partition, tsr-upscaling
 auditoria-ia-programacao: ai-damage-avoidance, ai-pro, navmesh, blueprints-basics, scripts-basics, csharp-guide, blueprint-debugger, jit-native
