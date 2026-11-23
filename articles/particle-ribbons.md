@@ -1,7 +1,7 @@
 id: particle-ribbons
 kind: howto
 title: Rastros e fitas de partículas (Ribbon Renderer) | Particle trails and ribbons (Ribbon Renderer)
-keys: ribbon, ribbons, ribbon renderer, fita, fitas, rastro, rastros, trail, trails, rastro de espada, sword trail, rastro de projetil, projectile trail, rastro de bala, bullet trail, rastro magico, magic trail, feixe, beam, faixa de luz, light streak, cauda, tail, particulas em fita, ribbon trail
+keys: ribbon, ribbons, ribbon renderer, fita, fitas, rastro, rastros, trail, trails, rastro de espada, rastro atras da espada, rastro do ataque, sword trail, attack trail, swing trail, rastro de projetil, projectile trail, rastro de bala, bullet trail, rastro magico, magic trail, feixe, beam, faixa de luz, light streak, cauda, tail, particulas em fita, ribbon trail
 --- pt
 ```diagram steps
 Sistema de Partículas: Render > Ribbon Renderer (no lugar do Sprite)
