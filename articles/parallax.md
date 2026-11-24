@@ -1,7 +1,7 @@
 id: parallax
 kind: concept
 title: Parallax: relevo sem polígonos | Parallax: depth without polygons
-keys: parallax, parallax occlusion, pom, relevo no material, relevo sem poligonos, pedras no material, relevo, profundidade, depth, displacement, deslocamento, height map, mapa de altura, altura, height, calcamento, cobblestones, tijolos, bricks, pedras, stones, rejunte, mortar, superficie afundada, sunken surface, microdeslocamento, micro displacement
+keys: parallax, parallax occlusion, pom, relevo no material, relevo sem poligonos, pedras no material, relevo, profundidade, depth, displacement, deslocamento, height map, mapa de altura, altura, height, calcamento, cobblestones, tijolos, bricks, pedras, stones, rejunte, mortar, superficie afundada, sunken surface, microdeslocamento, micro displacement, geometry tessellation, tesselacao de geometria
 --- pt
 ```diagram steps
 Material Opaque: um nó Displacement
@@ -15,7 +15,7 @@ O **parallax occlusion** faz uma superfície plana parecer ter relevo: pedras, t
 - O exemplo **M_ParallaxCobble** faz um calçamento com dois Voronoi (F2 − F1).
 - Custa algumas leituras de textura a mais, só nos pixels desse material (cerca de 0,15 ms com metade da tela coberta no Épico).
 - **Limites**: a borda da malha continua reta (não recorta a silhueta), e materiais Masked ou translúcidos não fazem parallax.
-- **Relevo de verdade** (a silhueta muda): veja Nanite Tessellation.
+- **Relevo de verdade** (a silhueta muda): veja Geometry Tessellation.
 --- en
 ```diagram steps
 Opaque material: a Displacement node
@@ -29,4 +29,4 @@ The surface looks sunk where the height is low
 - The **M_ParallaxCobble** example makes cobblestones from two Voronoi (F2 − F1).
 - It costs a few more texture reads, only on that material's pixels (about 0.15 ms with half the screen covered at Epic).
 - **Limits**: the mesh's edge stays straight (no cut silhouette), and Masked or translucent materials don't do parallax.
-- **Real relief** (the silhouette changes): see Nanite Tessellation.
+- **Real relief** (the silhouette changes): see Geometry Tessellation.

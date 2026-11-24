@@ -1,7 +1,7 @@
 # Each area of the engine (a notas-dev/<area>.md) and the Assistant's articles that explain it.
 # tools/assistant_pack.py fails when an area has no line here or names a missing article: a new feature goes into the
 # Assistant with it (RealEngine.md, "Como trabalhar aqui"). The API functions and the controls' tips enter by themselves.
-animacao: animation, animation-pro, motion-matching-jumps, skinning, morph-targets, morph-curves, gpu-passes, asset-viewport, sockets-in-game, dynamic-bones, first-person-camera, motion-warping, paired-montage, traversal, anim-warping, montage-combo-hit, hit-reaction, cover-system
+animacao: animation, animation-pro, motion-matching-jumps, skinning, morph-targets, morph-curves, gpu-passes, asset-viewport, sockets-in-game, dynamic-bones, first-person-camera, motion-warping, paired-montage, traversal, anim-warping, montage-combo-hit, hit-reaction, cover-system, rig-detection
 assistente: assistant-help
 async: background-tasks, async-api
 audio: sound, audio-pro, metasounds
@@ -28,7 +28,7 @@ testes: test-suite
 jogo: package-game, hdr10-output
 landscape: landscape, foliage, landscape-paint
 luz: lights, sky-fog, shadows-pro, many-lights, contact-shadows, cine-camera, light-function, emissive-light
-marca: loading-screen, editor-intro
+marca: loading-screen, editor-intro, open-source-license, rivora-rename
 materiais: materials, material-vs-texture, change-color, texture-streaming, glass-translucent, material-pins-no-effect, vertex-color-detail, decals, parallax, digital-humans, wet-surface, transmission, interior-mapping, general-optimization, material-editor-flow, emissive-light, texture-autolink, drop-material-viewport
 multidao: crowds
 online: multiplayer, advanced-sessions, replication-pro, steam-pro, save-load, multiplayer-lag, online-prediction
@@ -40,7 +40,7 @@ sequencer: sequencer, camera-actor, cinematics-render
 servicos: report-bug, updates, gpu-crash
 umg: game-ui, ui-fonts-lists
 particulas: particle-systems, particles-tlender, fire, volumes-vdb, particle-ribbons
-ikrig: ik-rig, ragdoll, active-ragdoll, asset-viewport, ragdoll-realistic, ragdoll-get-up, dynamic-bones, clothing
+ikrig: ik-rig, ragdoll, active-ragdoll, asset-viewport, ragdoll-realistic, ragdoll-get-up, dynamic-bones, clothing, rig-detection, physics-auto-fit
 veiculos: vehicles, vehicle-parts, water-rails, vehicle-from-mesh
 procedural: procedural-worlds, procedural-facility
 android: android-export, touch-controls, android-performance, google-play
@@ -60,7 +60,7 @@ regras-de-jogo: game-rules
 habilidades: abilities
 hud: hud
 mundos-grandes: world-partition
-niveis: sublevels-lighting-levels, levels-day-night-panel, levels-save, world-partition
+niveis: sublevels-lighting-levels, levels-day-night-panel, levels-save, world-partition, level-preload
 temas-e-janelas: themes, window-layouts, platform-support
 icones-e-tooltips: icons-tooltips, graph-style
 toon: toon, materials, render-styles

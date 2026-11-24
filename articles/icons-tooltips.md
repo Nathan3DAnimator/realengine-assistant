@@ -1,7 +1,7 @@
 id: icons-tooltips
 kind: concept
 title: Ícones e dicas dos controles | Icons and control tooltips
-keys: ícone, ícones, icone, icones, icon, icons, dica, dicas, tooltip, tooltips, descrição, descricao, description, o que faz este botão, what does this button do, para que serve, atalho, atalhos, shortcut, shortcuts, f1, cor do ícone, icon color, família, familia, family, duotom, duotone, tipo de asset, asset type, selo, badge, folha de ícones, icon sheet, iconos, ayuda emergente, información sobre herramientas, atajo
+keys: ícone, ícones, icone, icones, icon, icons, dica, dicas, tooltip, tooltips, descrição, descricao, description, o que faz este botão, what does this button do, para que serve, atalho, atalhos, shortcut, shortcuts, f1, cor do ícone, icon color, família, familia, family, duotom, duotone, tipo de asset, asset type, selo, badge, folha de ícones, icon sheet, iconos, ayuda emergente, información sobre herramientas, atajo, sound graph, grafo de som
 --- pt
 ```diagram steps
 Pare o mouse num controle | A dica aparece ao lado: ícone, NOME, atalho | Embaixo: o que ele faz | F1: o Assistente busca aquele controle
@@ -27,7 +27,7 @@ As famílias de asset têm cores fixas (todas do tema, então mudam com ele):
 | Material | verde | Material, Material Instance |
 | Malha | laranja | Static Mesh, Skeletal Mesh, Landscape, veículo |
 | Animação | rosa | Animation, Montage, Blend Space, Level Sequence |
-| Áudio | violeta | Sound Wave, Sound Cue, MetaSound |
+| Áudio | violeta | Sound Wave, Sound Cue, Sound Graph |
 | Efeitos | âmbar | partículas, luzes, neblina |
 | UI | azul | Widget Blueprint, tema, controles |
 | Dados | cinza-azulado | Structure, Enum, Data Asset, Quest, Dialogue |
@@ -59,7 +59,7 @@ The asset families have fixed colors (all theme colors, so they change with it):
 | Material | green | Material, Material Instance |
 | Mesh | orange | Static Mesh, Skeletal Mesh, Landscape, vehicle |
 | Animation | pink | Animation, Montage, Blend Space, Level Sequence |
-| Audio | violet | Sound Wave, Sound Cue, MetaSound |
+| Audio | violet | Sound Wave, Sound Cue, Sound Graph |
 | Effects | amber | particles, lights, fog |
 | UI | blue | Widget Blueprint, theme, controls |
 | Data | blue-gray | Structure, Enum, Data Asset, Quest, Dialogue |
